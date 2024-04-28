@@ -15,9 +15,10 @@ tm = time.sleep
 # lista dos temas a pesquisar
 #foi colocado mais que o necessario para segurança de receber todos os pontos
 
-lista_pesquisa = ['bitcoin','economia','italia','pangeia','peste negra','jogo do dinheiro','urss','2077','egito','trojan', 'isometria','1984','triplice alianca'
-                  'medicina','ibge','microsoft','black mirror','dropshipping','alemanha dividida', 'aristocrata', 'estelionatario','feudalismo','cerejeiras','guerra fria',
-                  'i.a','ethernet','eniac','alan turing','eu robo', 'revolucoes','napoleao','cristovao','RJ','suica','fruta guarana' ]
+lista_pesquisa = [
+    'bitcoin','economia','italia','pangeia','peste negra','jogo do dinheiro','urss','2077','egito',      'trojan', 'isometria','1984','triplice alianca'
+    'medicina','ibge','microsoft','black mirror','dropshipping','alemanha dividida', 'aristocrata', 'estelionatario','feudalismo','cerejeiras','guerra fria',
+    'i.a','ethernet','eniac','alan turing','eu robo', 'revolucoes','napoleao','cristovao','RJ','suica','fruta guarana' ]
 
 #funçao para ver pontos (final da barra)
 def ver_pontos ():
@@ -48,9 +49,8 @@ es("edge")
 pr('enter')
 time.sleep(3)
 
-# caso abra a tela minimizada, será apertado o botão de aumentar
-cl(x=1014, y=52)
-
+# caso abra a tela minimizada, será apertado o atalho de maximizar
+pg.hotkey("win","up")
 ######################################
 barra_pontos()
 
