@@ -16,9 +16,9 @@ tm = time.sleep
 #foi colocado mais que o necessario para segurança de receber todos os pontos
 
 lista_pesquisa = [
-    'bitcoin','economia','italia','pangeia','peste negra','jogo do dinheiro','urss','2077','egito',      'trojan', 'isometria','1984','triplice alianca'
-    'medicina','ibge','microsoft','black mirror','dropshipping','alemanha dividida', 'aristocrata', 'estelionatario','feudalismo','cerejeiras','guerra fria',
-    'i.a','ethernet','eniac','alan turing','eu robo', 'revolucoes','napoleao','cristovao','RJ','suica','fruta guarana' ]
+    'bitcoin','economia','blockchain','dolar','windows xp','engengaria de software','ciencia da computacao','arquitetura de computadores','exploit','trojan', 'kali linux','cobol','industria 4.0',
+    'nanotecnologia','analista de sistemas','microsoft','redes de computadores','bug bounty','assembly', 'robo humanoides', 'espionagem virtual','ddos','hotkey','ubuntu',
+    'i.a','ethernet','eniac','alan turing','eu robo', 'futurismo','display lsd','bluetooth','5G','arduino','raspbarry pi' ]
 
 #funçao para ver pontos (final da barra)
 def ver_pontos ():
